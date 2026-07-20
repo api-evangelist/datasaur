@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.datasaur.ai/api/credentials
+docs: https://docs.datasaur.ai/api/credentials
+summary:
+  types: [oauth2]
+  oauth2_flows: [clientCredentials]
+  platform_sso: [SAML, SCIM]
+schemes:
+  - name: OAuth2ClientCredentials
+    type: oauth2
+    flow: clientCredentials
+    grant_type: client_credentials
+    token_url: https://datasaur.ai/api/oauth/token
+    rfc: RFC 6749 section 4.4 (Client Credentials Grant)
+    credentials: [client_id, client_secret]
+    token_type: bearer
+    token_ttl_seconds: 3600
+    request_header: 'Authorization: Bearer <access token>'
+    scopes: []
+    scopes_note: >-
+      Datasaur's client-credentials flow does not document a scope parameter;
+      access is governed by the credential's team/workspace membership and role,
+      not OAuth scopes.
+    sources: [https://docs.datasaur.ai/api/credentials]
+platform_authentication:
+  note: >-
+    Workspace/console access (distinct from the API) supports enterprise SSO via
+    SAML and user/group provisioning via SCIM.
+  saml: https://docs.datasaur.ai/integrations/saml
+  scim: https://docs.datasaur.ai/integrations/scim
