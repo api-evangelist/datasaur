@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.datasaur.ai/integrations/webhook-notifications
+spec_type: Webhooks
+docs: https://docs.datasaur.ai/integrations/webhook-notifications
+signature_docs: https://docs.datasaur.ai/integrations/webhook-notifications/webhook-signature
+description: >-
+  Datasaur emits webhook notifications for project lifecycle and labeling
+  events. Deliveries can be verified via a webhook signature. No AsyncAPI
+  document is published; this captures the documented webhook event catalog.
+events:
+  - name: Project created
+    trigger: A new project is created.
+  - name: Before update labels
+    trigger: Immediately before a labeler applies or modifies a label.
+  - name: Project completed
+    trigger: A labeler finalizes the project in labeler mode.
+  - name: Project reviewed
+    trigger: A reviewer finalizes the project in reviewer mode.
+verification:
+  signature: true
+  docs: https://docs.datasaur.ai/integrations/webhook-notifications/webhook-signature

@@ -1,0 +1,37 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/datasaur-ai
+notes: >-
+  Datasaur exposes a GraphQL API (https://app.datasaur.ai/graphql) but does not
+  publish a versioned client SDK on npm/PyPI. First-party tooling is distributed
+  as source on the datasaur-ai GitHub org: Robosaur (a TypeScript/Node.js CLI)
+  and Python API sample scripts. No official package-registry SDK was found.
+packages:
+  - language: typescript
+    registry: github
+    name: robosaur
+    url: https://github.com/datasaur-ai/robosaur
+    install: git clone https://github.com/datasaur-ai/robosaur.git && cd robosaur && npm ci
+    official: true
+    kind: cli
+    description: >-
+      Command-line automation tool for the Datasaur platform (create-projects,
+      export-projects, apply-tags, split-document) with state-file tracking.
+  - language: python
+    registry: github
+    name: api-client-example
+    url: https://github.com/datasaur-ai/api-client-example
+    install: git clone https://github.com/datasaur-ai/api-client-example.git && pip3 install -r requirements.txt
+    official: true
+    kind: sample
+    description: >-
+      First-party Python sample scripts for the Datasaur GraphQL API
+      (createProject, exportProject, getProjects, updateProjectTags).
+  - language: typescript
+    registry: github
+    name: libraries
+    url: https://github.com/datasaur-ai/libraries
+    install: git clone https://github.com/datasaur-ai/libraries.git
+    official: true
+    kind: library
+    description: Shared libraries to speed up custom-script development.

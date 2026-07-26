@@ -1,0 +1,30 @@
+generated: '2026-07-18'
+method: searched
+source: https://datasaur.ai/studio/security
+standards:
+  - id: oauth2-client-credentials
+    conforms: true
+    evidence: >-
+      API auth is OAuth 2.0 Client Credentials Grant (RFC 6749 s4.4), token
+      endpoint https://datasaur.ai/api/oauth/token.
+  - id: saml-2.0
+    conforms: true
+    evidence: Workspace SSO via SAML (docs.datasaur.ai/integrations/saml).
+  - id: scim-2.0
+    conforms: true
+    evidence: User/group provisioning via SCIM (docs.datasaur.ai/integrations/scim).
+  - id: soc2
+    conforms: true
+    evidence: SOC 2 stated on https://datasaur.ai/studio/security.
+  - id: hipaa
+    conforms: true
+    evidence: HIPAA compliance stated on https://datasaur.ai/studio/security.
+  - id: gdpr
+    conforms: true
+    evidence: GDPR compliance stated on https://datasaur.ai/studio/security.
+  - id: graphql
+    conforms: true
+    evidence: Primary API surface is GraphQL at https://app.datasaur.ai/graphql.
+compliance_programs:
+  page: https://datasaur.ai/studio/security
+  certifications: [SOC 2, HIPAA, GDPR]

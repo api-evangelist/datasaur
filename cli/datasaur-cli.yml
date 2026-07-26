@@ -1,0 +1,32 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.datasaur.ai/integrations/robosaur
+name: Robosaur
+description: >-
+  Robosaur is Datasaur's first-party command-line automation tool (TypeScript /
+  Node.js) for bulk operations against the Datasaur platform via the GraphQL API.
+  It uses a state file to track execution history so completed tasks are not
+  reprocessed while failed ones are retried.
+repository: https://github.com/datasaur-ai/robosaur
+docs: https://docs.datasaur.ai/integrations/robosaur
+install:
+  - method: git+npm
+    steps:
+      - git clone https://github.com/datasaur-ai/robosaur.git
+      - cd robosaur
+      - nvm use
+      - npm ci
+commands:
+  - name: create-projects
+    invocation: npm run start -- create-projects <path-to-configuration-file>
+    description: Create Datasaur projects from a configuration file.
+  - name: export-projects
+    invocation: npm run start -- export-projects <path-to-configuration-file>
+    description: Export projects' labels in bulk.
+  - name: apply-tags
+    invocation: npm run start -- apply-tags <path-to-configuration-file>
+    description: Apply tags to projects.
+  - name: split-document
+    invocation: npm run start -- split-document <path-to-configuration-file>
+    description: Split documents ahead of project creation.
+auth: OAuth2 client credentials (configured in the Robosaur configuration file).

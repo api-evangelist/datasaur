@@ -1,8 +1,16 @@
 aid: datasaur
 name: Datasaur
-description: 'Datasaur is a company surfaced as a portfolio company of initialized-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: enterprise-saas. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Datasaur is an enterprise AI lab that builds private, secure LLM and data
+  solutions deployed on a customer's own infrastructure. Its Data Studio is a
+  collaborative data-labeling platform (span, row, document, bounding-box,
+  conversational and audio tasks) with ML-assisted labeling, while LLM Labs
+  covers sandboxing, deployment, knowledge bases, model integrations and
+  evaluation. Products include an enterprise chatbot, document intelligence,
+  PII/PHI redaction and private agents, serving legal, healthcare, finance,
+  insurance, eCommerce and government. Developers integrate through a GraphQL
+  API (OAuth2 client credentials) at app.datasaur.ai/graphql, the Robosaur CLI,
+  webhooks, and SAML/SCIM for workspace SSO.
 url: https://raw.githubusercontent.com/api-evangelist/datasaur/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,32 @@ x-backed-by:
 - initialized-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/623952e7f678f73f3096fd25/66c5ad5767cd845864d963b5_webclip.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise Saas
+- Data Labeling
+- Artificial Intelligence
+- Machine Learning
+- Large Language Models
+- NLP
+- Data Annotation
+- GraphQL
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +52,80 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://datasaur.ai/
+  url: https://datasaur.ai/
+- type: DeveloperPortal
+  url: https://docs.datasaur.ai/
+- type: Documentation
+  url: https://docs.datasaur.ai/
+- type: APIReference
+  url: https://api-docs.datasaur.ai/
+- type: GettingStarted
+  url: https://docs.datasaur.ai/welcome-to-datasaur/readme
+- type: Blog
+  url: https://datasaur.ai/blog
+- type: Pricing
+  url: https://datasaur.ai/pricing
+- type: SignUp
+  url: https://app.datasaur.ai/sign-up
+- type: Login
+  url: https://app.datasaur.ai/login
+- type: Support
+  url: mailto:support@datasaur.ai
+- type: TermsOfService
+  url: https://datasaur.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://datasaur.ai/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/datasaur-ai
+- type: StatusPage
+  url: https://status.datasaur.ai/
+- type: TrustCenter
+  url: security/datasaur-trust-center.yml
+- type: Compliance
+  url: https://datasaur.ai/studio/security
+- type: DomainSecurity
+  url: security/datasaur-domain-security.yml
+- type: Authentication
+  name: Datasaur authentication profile
+  url: authentication/datasaur-authentication.yml
+- type: Packages
+  name: Datasaur packages
+  url: packages/datasaur-packages.yml
+- type: CLI
+  name: Robosaur CLI
+  url: cli/datasaur-cli.yml
+- type: MCPServer
+  name: Datasaur MCP (candidate)
+  url: mcp/datasaur-mcp.yml
+- type: LLMsTxt
+  name: Datasaur llms.txt
+  url: llms/datasaur-llms.txt
+- type: Conformance
+  name: Datasaur conformance
+  url: conformance/datasaur-conformance.yml
+- type: Lifecycle
+  name: Datasaur lifecycle
+  url: lifecycle/datasaur-lifecycle.yml
+- type: Deprecation
+  name: Datasaur deprecation policy
+  url: lifecycle/datasaur-lifecycle.yml
+- type: ChangeLog
+  name: Datasaur release notes
+  url: changelog/datasaur-changelog.yml
+- type: Conventions
+  name: Datasaur API conventions
+  url: conventions/datasaur-conventions.yml
+- type: DataModel
+  name: Datasaur data model
+  url: data-model/datasaur-data-model.yml
+- type: Webhooks
+  name: Datasaur webhooks
+  url: asyncapi/datasaur-webhooks.yml
+- type: AgentSkill
+  name: Datasaur agent skills
+  url: skills/_index.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

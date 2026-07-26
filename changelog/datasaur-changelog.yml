@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6
+scheme: semver
+current_version: 6.167.0
+url: https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6
+window: recent
+entries:
+  - version: 6.167.0
+    date: '2026-07-16'
+    breaking: false
+  - version: 6.166.0
+    date: '2026-07-09'
+    breaking: false
+  - version: 6.165.0
+    date: '2026-07-02'
+    breaking: false
+  - version: 6.164.0
+    date: '2026-06-25'
+    breaking: false
+  - version: 6.163.0
+    date: '2026-06-11'
+    breaking: false
+  - version: 6.162.0
+    date: '2026-06-04'
+    breaking: false
+  - version: 6.161.0
+    date: '2026-05-21'
+    breaking: false
+notes: >-
+  Highlights are published per-release on the version-6 release-notes page;
+  only version/date captured here (recent window). Major-version 6 carried
+  breaking changes to Row Labeling and Document Labeling.

@@ -1,0 +1,46 @@
+generated: '2026-07-18'
+method: derived
+source: >-
+  Derived from documented Datasaur GraphQL operations and object references
+  (https://docs.datasaur.ai/api/apis-docs, api-client-example). No OpenAPI/GraphQL
+  SDL was harvested; entities inferred from the documented API surface.
+entities:
+  - name: Team
+    description: Workspace/organization boundary that owns projects and members.
+    id_field: teamId
+  - name: Project
+    description: A labeling project; created asynchronously, exportable, taggable.
+    id_field: projectId
+    id_example: YOfkM6jKHzN
+  - name: Document
+    description: A file/document within a project (span/row/document/bounding-box tasks).
+  - name: Label
+    description: Annotation applied to a document by a labeler.
+  - name: Guideline
+    description: Labeling guideline attached to a project.
+  - name: Tag
+    description: Free-form tag applied to projects (PUT replaces, PATCH adds).
+  - name: User
+    description: Member of a team acting as labeler or reviewer.
+relationships:
+  - from: Project
+    to: Team
+    type: belongs_to
+    via: teamId
+  - from: Team
+    to: Project
+    type: has_many
+    via: teamId
+  - from: Project
+    to: Document
+    type: has_many
+  - from: Document
+    to: Label
+    type: has_many
+  - from: Project
+    to: Guideline
+    type: has_one
+    via: createGuideline
+  - from: Project
+    to: Tag
+    type: has_many

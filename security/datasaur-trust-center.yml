@@ -1,0 +1,15 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://datasaur.ai/studio/security
+url: https://datasaur.ai/studio/security
+certifications:
+- SOC 2
+- HIPAA
+- GDPR
+evidence:
+- source: https://datasaur.ai/studio/security
+  keywords:
+  - soc 2
+  - hipaa
+  - gdpr

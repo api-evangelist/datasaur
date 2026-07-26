@@ -1,0 +1,40 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/datasaur-ai/api-client-example
+docs: https://docs.datasaur.ai/api/apis-docs
+api_style: GraphQL (single endpoint) with multipart HTTP POST for file uploads
+endpoint: https://app.datasaur.ai/graphql
+authentication:
+  style: OAuth2 client-credentials bearer token
+  header: 'Authorization: Bearer <access token>'
+  token_url: https://datasaur.ai/api/oauth/token
+  token_ttl_seconds: 3600
+  ref: authentication/datasaur-authentication.yml
+async_jobs:
+  note: >-
+    Project creation (createProject) is asynchronous — the response describes a
+    job, not the created project. Callers poll job status separately.
+pagination:
+  style: cursor/paginated GraphQL queries
+  note: >-
+    getProjects returns a paginated response; pagination variables are supplied
+    as query inputs (see get_projects.json in api-client-example).
+tag_semantics:
+  put: Replaces all project tags with the supplied set (REST PUT semantics).
+  patch: Adds new tags to a project without removing existing ones (REST PATCH semantics).
+file_upload:
+  style: multipart HTTP POST (GraphQL multipart request) for project file lists.
+idempotency:
+  supported: false
+  note: >-
+    No idempotency-key contract is documented; safe replays rely on the async
+    job/state model (Robosaur maintains a client-side state file to avoid
+    reprocessing completed tasks).
+error_envelope:
+  style: GraphQL errors[] array
+  note: Errors returned in the standard GraphQL top-level errors array.
+versioning:
+  scheme: semver (platform 6.x); deprecated mutations carry dated sunset windows.
+  ref: lifecycle/datasaur-lifecycle.yml
+webhooks:
+  ref: asyncapi/datasaur-webhooks.yml

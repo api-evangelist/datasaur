@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.datasaur.ai/compatibility-and-updates/release-notes
+versioning:
+  scheme: semver
+  current: 6.167.0
+  docs: https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6
+  notes: >-
+    Platform released on a weekly semver cadence (6.x.0). Version 6 introduced
+    breaking changes to Row Labeling and Document Labeling from database schema
+    improvements.
+deprecation:
+  policy: >-
+    Deprecated GraphQL mutations are announced with a dated maintenance window
+    and a hard end-of-support date.
+  docs: https://docs.datasaur.ai/api/create-new-project/new-mutation-createproject
+  examples:
+    - operation: launchTextProjectAsync
+      replaced_by: createProject
+      maintenance_until: '2024-03-31'
+      support_ends: '2024-06-30'
+status_page: https://status.datasaur.ai/
+sla:
+  note: Enterprise/self-hosted SLAs handled via sales; no public SLA page found.

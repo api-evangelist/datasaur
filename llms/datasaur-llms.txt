@@ -1,0 +1,393 @@
+# Datasaur
+
+## Datasaur
+
+- [Getting started with Datasaur](https://docs.datasaur.ai/welcome-to-datasaur/readme.md)
+- [Data Studio Introduction](https://docs.datasaur.ai/data-studio-projects/data-studio-introduction.md)
+- [Labeling Task Types](https://docs.datasaur.ai/data-studio-projects/nlp-task-types.md)
+- [Span Based](https://docs.datasaur.ai/data-studio-projects/nlp-task-types/span-based.md)
+- [OCR Labeling](https://docs.datasaur.ai/data-studio-projects/nlp-task-types/span-based/ocr-labeling.md)
+- [Audio Project](https://docs.datasaur.ai/data-studio-projects/nlp-task-types/span-based/audio-project.md): Create and label an audio labeling project in Datasaur
+- [Row Based](https://docs.datasaur.ai/data-studio-projects/nlp-task-types/row-based.md)
+- [Document Based](https://docs.datasaur.ai/data-studio-projects/nlp-task-types/document-based.md)
+- [Bounding Box](https://docs.datasaur.ai/data-studio-projects/nlp-task-types/bounding-box.md)
+- [Conversational](https://docs.datasaur.ai/data-studio-projects/nlp-task-types/conversational.md)
+- [Mixed Labeling](https://docs.datasaur.ai/data-studio-projects/nlp-task-types/mixed-label-sets.md)
+- [Project Templates](https://docs.datasaur.ai/data-studio-projects/nlp-task-types/project-templates.md): Exploring Datasaur's pre-built project templates
+- [Test Project](https://docs.datasaur.ai/data-studio-projects/nlp-task-types/project-templates/test-project.md): Set a test for your labelers!
+- [Create a Project](https://docs.datasaur.ai/data-studio-projects/creating-a-project.md)
+- [Data Formats](https://docs.datasaur.ai/data-studio-projects/creating-a-project/import-data.md)
+- [Data Samples](https://docs.datasaur.ai/data-studio-projects/creating-a-project/data-samples.md)
+- [Split Files](https://docs.datasaur.ai/data-studio-projects/creating-a-project/split-files.md)
+- [Consensus](https://docs.datasaur.ai/data-studio-projects/creating-a-project/consensus.md): Allows you to review your project automatically.
+- [Dynamic Review Capabilities](https://docs.datasaur.ai/data-studio-projects/creating-a-project/dynamic-review-capabilities.md): Allows you to assign another person to review your project automatically
+- [Pre-Labeled Project](https://docs.datasaur.ai/data-studio-projects/pre-labeled-project.md)
+- [Let's Get Labeling!](https://docs.datasaur.ai/data-studio-projects/lets-get-labeling.md)
+- [Span Based](https://docs.datasaur.ai/data-studio-projects/lets-get-labeling/span-based.md)
+- [Span + Line Labeling](https://docs.datasaur.ai/data-studio-projects/lets-get-labeling/span-based/span-+-line-labeling.md): This guide will walk you through how to set up the combination of span + line labeling in one project.
+- [Span + Line + Document Labeling](https://docs.datasaur.ai/data-studio-projects/lets-get-labeling/span-based/span-+-line-+-document-labeling.md): This guide will walk you through how to set up the combination of span + line + document Labeling in one project.
+- [Row & Document Based](https://docs.datasaur.ai/data-studio-projects/lets-get-labeling/row-and-document-based.md)
+- [Bounding Box Labeling](https://docs.datasaur.ai/data-studio-projects/lets-get-labeling/bounding-box-labeling.md)
+- [Conversational Labeling](https://docs.datasaur.ai/data-studio-projects/lets-get-labeling/conversational-labeling.md)
+- [Label Sets / Question Sets](https://docs.datasaur.ai/data-studio-projects/lets-get-labeling/label-sets.md)
+- [Refer Answer to Table Column](https://docs.datasaur.ai/data-studio-projects/lets-get-labeling/label-sets/refer-answer-to-table-column.md)
+- [Dynamic Question Set](https://docs.datasaur.ai/data-studio-projects/lets-get-labeling/label-sets/dynamic-question-set.md)
+- [Multiple Label Sets](https://docs.datasaur.ai/data-studio-projects/lets-get-labeling/multiple-label-sets.md)
+- [Reviewing Projects](https://docs.datasaur.ai/data-studio-projects/reviewing-nlp-projects.md)
+- [Review Sampling](https://docs.datasaur.ai/data-studio-projects/reviewing-nlp-projects/review-sampling.md)
+- [Export Project](https://docs.datasaur.ai/data-studio-projects/export-project.md)
+- [Labeling Agent](https://docs.datasaur.ai/agent/labeling-agent.md)
+- [Span Labeling Agent](https://docs.datasaur.ai/agent/labeling-agent/span-labeling-agent.md)
+- [Row Labeling Agent](https://docs.datasaur.ai/agent/labeling-agent/row-labeling-agent.md)
+- [LLM Labs Introduction](https://docs.datasaur.ai/llm-projects/llm-introduction.md)
+- [Sandbox](https://docs.datasaur.ai/llm-projects/sandbox.md): Sandbox is a platform designed for your LLM experimentation. It allows you to integrate your knowledge base and deploy models easily.
+- [Direct Access LLMs](https://docs.datasaur.ai/llm-projects/sandbox/direct-access-llms.md)
+- [File Attachment](https://docs.datasaur.ai/llm-projects/sandbox/file-attachment.md)
+- [Conversational Prompt](https://docs.datasaur.ai/llm-projects/sandbox/conversational-prompt.md)
+- [Model Context Protocol (MCP)](https://docs.datasaur.ai/llm-projects/sandbox/model-context-protocol-mcp.md)
+- [Deployment](https://docs.datasaur.ai/llm-projects/deployment.md)
+- [Deployment API](https://docs.datasaur.ai/llm-projects/deployment/deployment-api.md)
+- [Knowledge base](https://docs.datasaur.ai/llm-projects/knowledge-base.md)
+- [External Object Storage](https://docs.datasaur.ai/llm-projects/knowledge-base/external-object-storage.md)
+- [File Properties](https://docs.datasaur.ai/llm-projects/knowledge-base/file-properties.md)
+- [Chunk Editor](https://docs.datasaur.ai/llm-projects/knowledge-base/chunk-editor.md)
+- [Periodic Sync](https://docs.datasaur.ai/llm-projects/knowledge-base/periodic-sync.md)
+- [Models](https://docs.datasaur.ai/llm-projects/models.md)
+- [Amazon SageMaker JumpStart](https://docs.datasaur.ai/llm-projects/models/amazon-sagemaker-jumpstart.md)
+- [Amazon Bedrock](https://docs.datasaur.ai/llm-projects/models/amazon-bedrock.md)
+- [Open AI](https://docs.datasaur.ai/llm-projects/models/open-ai.md)
+- [Azure OpenAI](https://docs.datasaur.ai/llm-projects/models/azure-openai.md)
+- [Vertex AI](https://docs.datasaur.ai/llm-projects/models/vertex-ai.md)
+- [Custom model](https://docs.datasaur.ai/llm-projects/models/custom-model.md)
+- [Fine-tuning](https://docs.datasaur.ai/llm-projects/models/fine-tuning.md)
+- [LLM Comparison Table](https://docs.datasaur.ai/llm-projects/models/llm-comparison-table.md)
+- [Evaluation](https://docs.datasaur.ai/llm-projects/evaluation.md)
+- [Automated Evaluation](https://docs.datasaur.ai/llm-projects/evaluation/automated-evaluation.md)
+- [Multi-model evaluation](https://docs.datasaur.ai/llm-projects/evaluation/automated-evaluation/multi-application-evaluation.md)
+- [Custom metrics](https://docs.datasaur.ai/llm-projects/evaluation/automated-evaluation/custom-metrics.md)
+- [Ranking (RLHF)](https://docs.datasaur.ai/llm-projects/evaluation/ranking-rlhf.md)
+- [Rating](https://docs.datasaur.ai/llm-projects/evaluation/rating.md)
+- [Performance Monitoring](https://docs.datasaur.ai/llm-projects/evaluation/performance-monitoring.md)
+- [Dataset](https://docs.datasaur.ai/llm-projects/dataset.md)
+- [Pricing Plan](https://docs.datasaur.ai/llm-projects/pricing-plan.md)
+- [Workspace](https://docs.datasaur.ai/workspace-management/workspace.md)
+- [Role & Permission](https://docs.datasaur.ai/workspace-management/role-and-permission.md)
+- [Analytics](https://docs.datasaur.ai/workspace-management/analytics.md)
+- [Inter-Annotator Agreement (IAA)](https://docs.datasaur.ai/workspace-management/analytics/inter-annotator-agreement.md)
+- [Cohen's Kappa Calculation](https://docs.datasaur.ai/workspace-management/analytics/inter-annotator-agreement/cohens-kappa-calculation.md): Explain how Datasaur implements the Cohen's Kappa algorithm.
+- [Krippendorff's Alpha Calculation](https://docs.datasaur.ai/workspace-management/analytics/inter-annotator-agreement/krippendorffs-alpha-calculation.md): Explain how Datasaur implements the Krippendorff's Alpha algorithm.
+- [Custom Report Builder](https://docs.datasaur.ai/workspace-management/analytics/custom-report-builder.md): Build your own report using a group table, metrics, and segments.
+- [Project Report](https://docs.datasaur.ai/workspace-management/analytics/project-report.md): See the summary of the labeling work for a specific project
+- [Evaluation Metrics](https://docs.datasaur.ai/workspace-management/analytics/evaluation-metrics.md): Assess labelers’ answers using reviewers’ labels as the ground truth.
+- [Activity](https://docs.datasaur.ai/workspace-management/activity.md)
+- [File Transformer](https://docs.datasaur.ai/workspace-management/file-transformer.md): Allows you to write a custom implementation of some features in Datasaur.
+- [Import Transformer](https://docs.datasaur.ai/workspace-management/file-transformer/import-transformer.md)
+- [Export Transformer](https://docs.datasaur.ai/workspace-management/file-transformer/export-transformer.md)
+- [Upload File Transformer](https://docs.datasaur.ai/workspace-management/file-transformer/upload-file-transformer.md)
+- [Run File Transformer](https://docs.datasaur.ai/workspace-management/file-transformer/running-file-transformer.md): This feature allows you to check whether the file transformer you built is working properly or not.
+- [Label Management](https://docs.datasaur.ai/workspace-management/label-management.md)
+- [Label Set Management](https://docs.datasaur.ai/workspace-management/label-management/label-set-management.md): Manage label sets in a team workspace.
+- [Question Set Management](https://docs.datasaur.ai/workspace-management/label-management/question-set-management.md): Manage question sets in a team workspace.
+- [Project Management](https://docs.datasaur.ai/workspace-management/project-management.md)
+- [Manage Documents in an Ongoing Project](https://docs.datasaur.ai/workspace-management/project-management/manage-documents-in-an-ongoing-project.md)
+- [Self-Assignment](https://docs.datasaur.ai/workspace-management/project-management/self-assignment.md)
+- [Self-Unassign](https://docs.datasaur.ai/workspace-management/project-management/self-assignment/self-unassign.md)
+- [Transfer Assignment Ownership](https://docs.datasaur.ai/workspace-management/project-management/transfer-assignment-ownership.md)
+- [Reset Labeling Work](https://docs.datasaur.ai/workspace-management/project-management/reset-labeling-work.md)
+- [Mark Document as Complete](https://docs.datasaur.ai/workspace-management/project-management/mark-document-as-complete.md)
+- [Project Status Workflow](https://docs.datasaur.ai/workspace-management/project-management/project-status-workflow.md)
+- [Read-only Mode](https://docs.datasaur.ai/workspace-management/project-management/project-status-workflow/read-only-mode.md): Read-only mode is a state where you can view the project after it is marked as complete, but cannot make any changes.
+- [Comment Feature](https://docs.datasaur.ai/workspace-management/project-management/comment-feature.md): Comment is available for both span and row-based projects with tabular view.
+- [Archive Project](https://docs.datasaur.ai/workspace-management/project-management/archive-project.md): This feature allows you to archive old projects and keep your board clean.
+- [Automation](https://docs.datasaur.ai/workspace-management/automation.md): Using Datasaur Action allows you to automate certain processes in the app.
+- [Action: Create Projects](https://docs.datasaur.ai/workspace-management/automation/action-create-projects.md): Automate project creation using files from your external object storage.
+- [ML-Assisted Labeling](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling.md): ML-assisted labeling extension lets you use open-source models, LLMs, or your own models to generate labels automatically.
+- [Amazon Comprehend](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/amazon-comprehend.md): Enable your integration with models from Amazon Comprehend.
+- [Amazon SageMaker](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/amazon-sagemaker.md)
+- [Azure ML](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/azure.md)
+- [CoreNLP NER](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/corenlp-ner.md)
+- [CoreNLP POS](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/corenlp-pos.md)
+- [Custom API](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/ml-assisted-using-custom-api.md)
+- [FewNERD](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/fewnerd.md)
+- [Google Vertex AI](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/google-vertex-ai.md): Enable your integration with models from Google Vertex AI.
+- [Hugging Face](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/ml-assisted-using-huggingface.md)
+- [LLM Assisted Labeling](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/llm-assisted-labeling.md)
+- [Prompt Examples](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/llm-assisted-labeling/prompt-examples.md): Prompts examples for row labeling and span labeling projects.
+- [Amazon Bedrock](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/llm-assisted-labeling/amazon-bedrock.md): Connect Amazon Bedrock to LLM-assisted labeling.
+- [Custom Provider](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/llm-assisted-labeling/custom-provider.md): LLM Assisted Labeling with custom provider.
+- [LLM Labs (beta)](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/llm-labs-beta.md): Enable your integration with models from Datasaur LLM Labs
+- [NLTK](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/nltk.md)
+- [Sentiment Analysis](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/sentiment-analysis.md)
+- [spaCy](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/spacy.md)
+- [SparkNLP NER](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/sparknlp-ner.md)
+- [SparkNLP POS](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/sparknlp-pos.md)
+- [OpenAI (beta)](https://docs.datasaur.ai/assisted-labeling/ml-assisted-labeling/openai-beta.md)
+- [Data Programming](https://docs.datasaur.ai/assisted-labeling/data-programming.md): Label data with rules and heuristics.
+- [Example of Labeling Functions](https://docs.datasaur.ai/assisted-labeling/data-programming/example-of-labeling-functions.md): A collection of labeling functions for row labeling and span labeling.
+- [Labeling Function Analysis](https://docs.datasaur.ai/assisted-labeling/data-programming/labeling-function-analysis.md): Allows users to view the results of their labeling functions, including coverage, overlaps, and conflicts, and to improve performance by training the label model
+- [Inter-Annotator Agreement for Data Programming](https://docs.datasaur.ai/assisted-labeling/data-programming/inter-annotator-agreement-for-data-programming.md): Measure agreement between labeling functions to evaluate performance.
+- [Predictive Labeling](https://docs.datasaur.ai/assisted-labeling/predictive-labeling.md): Predictive labeling helps improve prediction performance when preparing labeled data and reduces annotation time.
+- [Real-time Assisted Labeling](https://docs.datasaur.ai/assisted-labeling/real-time-assisted-labeling.md): Real-time assisted labeling enables automatic labeling without requiring configuration or AI knowledge. This extension simplifies the workflow and improves labeling speed and accuracy.
+- [Label Error Detection](https://docs.datasaur.ai/assisted-review/label-error-detection.md): Automatically detect possible labeling mistakes in your dataset.
+- [Datasaur Dinamic](https://docs.datasaur.ai/build-model/datasaur-dinamic.md): Datasaur Dinamic enables you to label data and train a model natively within Datasaur.
+- [Datasaur Dinamic with Hugging Face](https://docs.datasaur.ai/build-model/datasaur-dinamic/hugging-face.md)
+- [Datasaur Dinamic with Amazon SageMaker Autopilot](https://docs.datasaur.ai/build-model/datasaur-dinamic/aws-sagemaker.md)
+- [Script-Generated Question](https://docs.datasaur.ai/advanced/script-generated-question.md)
+- [Shortcuts](https://docs.datasaur.ai/advanced/shortcuts.md): Making your labeling process even easier.
+- [Extensions](https://docs.datasaur.ai/advanced/extensions.md): Enable and manage extensions that support and enhance the labeling workflow.
+- [Labels](https://docs.datasaur.ai/advanced/extensions/labels.md): Manage and apply label sets.
+- [Review](https://docs.datasaur.ai/advanced/extensions/review.md): Review and resolve labeling conflicts while tracking review progress and quality.
+- [Document and Row Labeling](https://docs.datasaur.ai/advanced/extensions/document-and-row-labeling.md)
+- [Bounding Box Labels](https://docs.datasaur.ai/advanced/extensions/bounding-box-labels.md)
+- [List of Files](https://docs.datasaur.ai/advanced/extensions/list-of-files.md): Displays all project files in an organized list with navigation, search, and status management.
+- [Comments](https://docs.datasaur.ai/advanced/extensions/comments.md)
+- [Analytics](https://docs.datasaur.ai/advanced/extensions/analytics.md): Analytics to track labeler performance and progress in a project.
+- [Dictionary](https://docs.datasaur.ai/advanced/extensions/dictionary.md): View definitions and parts of speech for selected text using English or Bahasa Indonesia dictionaries.
+- [Search](https://docs.datasaur.ai/advanced/extensions/search.md): Search and filter data using keywords, labels, and advanced conditions.
+- [Labeling Guidelines](https://docs.datasaur.ai/advanced/extensions/labeling-guidelines.md): Provide labeling instructions and guidelines for labelers during labeling tasks.
+- [Metadata](https://docs.datasaur.ai/advanced/extensions/metadata.md): View additional metadata attached to lines or cells within your project.
+- [Grammar Checker](https://docs.datasaur.ai/advanced/extensions/grammar-checker.md): Detect and review grammatical errors.
+- [ML-Assisted Labeling](https://docs.datasaur.ai/advanced/extensions/ml-assisted-labeling.md): ML-assisted labeling extension lets you use open-source models, LLMs, or your own models to generate labels automatically.
+- [Data Programming](https://docs.datasaur.ai/advanced/extensions/data-programming.md): Examples of how Data Programming can automate labeling using rules, patterns, and keyword-based logic.
+- [Datasaur Dinamic](https://docs.datasaur.ai/advanced/extensions/datasaur-dinamic.md): Train and deploy models from your labeled data.
+- [Predictive Labeling](https://docs.datasaur.ai/advanced/extensions/predictive-labeling.md): Predictive labeling generates labels based on your existing labeled data.
+- [Label Error Detection](https://docs.datasaur.ai/advanced/extensions/label-error-detection.md): Automatically detect and review potential label errors in your dataset.
+- [LLM Sandbox](https://docs.datasaur.ai/advanced/extensions/sandbox.md)
+- [Tokenizers](https://docs.datasaur.ai/advanced/tokenizer.md): A tokenizer splits text into smaller units (tokens) like words and sentences for processing.
+- [External Object Storage](https://docs.datasaur.ai/integrations/external-object-storage.md): Integrate your own object storage when creating projects.
+- [AWS S3](https://docs.datasaur.ai/integrations/external-object-storage/aws-s3.md): Using your own S3 bucket for Datasaur projects
+- [With IRSA](https://docs.datasaur.ai/integrations/external-object-storage/aws-s3/with-irsa.md): Use your own S3 bucket for Datasaur projects with IRSA delegated permission.
+- [Google Cloud Storage](https://docs.datasaur.ai/integrations/external-object-storage/google-cloud-storage.md): Use your own GCS bucket for Datasaur projects.
+- [Azure Blob Storage](https://docs.datasaur.ai/integrations/external-object-storage/azure-blob-storage.md): Use your own Blob Storage Container for Datasaur projects.
+- [Dropbox](https://docs.datasaur.ai/integrations/external-object-storage/dropbox.md)
+- [Google Drive](https://docs.datasaur.ai/integrations/external-object-storage/google-drive.md): Use your Google Drive for Datasaur projects.
+- [Domain Claim](https://docs.datasaur.ai/integrations/domain-claim.md): Claim your domain to prevent unauthorized access.
+- [SAML](https://docs.datasaur.ai/integrations/saml.md): Enable integrated authentication using your preferred Identity Provider.
+- [Okta](https://docs.datasaur.ai/integrations/saml/okta.md)
+- [Microsoft Entra ID](https://docs.datasaur.ai/integrations/saml/microsoft-entra-id.md)
+- [SCIM](https://docs.datasaur.ai/integrations/scim.md): Provision and manage workspace users through your preferred identity provider.
+- [Okta](https://docs.datasaur.ai/integrations/scim/okta.md)
+- [Microsoft Entra ID](https://docs.datasaur.ai/integrations/scim/microsoft-entra-id.md)
+- [Webhook Notifications](https://docs.datasaur.ai/integrations/webhook-notifications.md)
+- [Webhook Signature](https://docs.datasaur.ai/integrations/webhook-notifications/webhook-signature.md)
+- [Events](https://docs.datasaur.ai/integrations/webhook-notifications/events.md)
+- [Custom Headers](https://docs.datasaur.ai/integrations/webhook-notifications/custom-headers.md)
+- [Robosaur](https://docs.datasaur.ai/integrations/robosaur.md): Robosaur is a Typescript command-line scripting tool to help automating your process on Datasaur.
+- [Commands](https://docs.datasaur.ai/integrations/robosaur/commands.md)
+- [Create Projects](https://docs.datasaur.ai/integrations/robosaur/commands/create-projects.md)
+- [Apply Project Tags](https://docs.datasaur.ai/integrations/robosaur/commands/apply-project-tags.md)
+- [Export Projects](https://docs.datasaur.ai/integrations/robosaur/commands/export-projects.md)
+- [Generate Time Per Task Report](https://docs.datasaur.ai/integrations/robosaur/commands/generate-time-per-task-report.md)
+- [Split Document](https://docs.datasaur.ai/integrations/robosaur/commands/split-document.md)
+- [Storage Options](https://docs.datasaur.ai/integrations/robosaur/storage-options.md)
+- [Datasaur APIs](https://docs.datasaur.ai/api/apis-docs.md)
+- [Credentials](https://docs.datasaur.ai/api/credentials.md)
+- [Create Project](https://docs.datasaur.ai/api/create-new-project.md)
+- [New mutation (createProject)](https://docs.datasaur.ai/api/create-new-project/new-mutation-createproject.md)
+- [Python Script Example](https://docs.datasaur.ai/api/create-new-project/python-script-example.md): An example script to create a project via API by utilizing Project Creation Wizard (PCW)
+- [Adding Documents](https://docs.datasaur.ai/api/adding-documents.md)
+- [Labeling](https://docs.datasaur.ai/api/labeling.md): This page provides an overview of label set APIs and how to use them.
+- [Create Label Set](https://docs.datasaur.ai/api/labeling/create-label-set.md)
+- [Add Label Sets into Existing Project](https://docs.datasaur.ai/api/labeling/add-label-sets-into-existing-project.md)
+- [Get List of Label Sets in a Project](https://docs.datasaur.ai/api/labeling/get-list-of-label-sets-in-a-project.md)
+- [Add Label Set Item into Project's Label Set](https://docs.datasaur.ai/api/labeling/add-label-item-into-projects-label-set.md)
+- [Programmatic API Labeling](https://docs.datasaur.ai/api/labeling/programmatic-auto-labeling.md): This feature allows you to use an API to apply labels to multiple projects at once.
+- [Inserting Span and Arrow Label into Document](https://docs.datasaur.ai/api/labeling/inserting-span-and-arrow-label-into-document.md)
+- [Export Project](https://docs.datasaur.ai/api/export-project.md)
+- [Custom Webhook](https://docs.datasaur.ai/api/export-project/custom-webhook.md)
+- [Get data](https://docs.datasaur.ai/api/get-data.md): Various query API examples
+- [Get list of projects](https://docs.datasaur.ai/api/get-data/get-list-of-projects.md)
+- [Get document information](https://docs.datasaur.ai/api/get-data/get-document-information.md)
+- [Get list of tags](https://docs.datasaur.ai/api/get-data/get-list-of-tags.md)
+- [Get cabinet](https://docs.datasaur.ai/api/get-data/get-cabinet.md): Get one cabinet information
+- [Export team overview](https://docs.datasaur.ai/api/get-data/export-team-overview.md)
+- [Check job](https://docs.datasaur.ai/api/get-data/check-job.md)
+- [Custom OCR](https://docs.datasaur.ai/api/custom-ocr.md)
+- [Importable Format](https://docs.datasaur.ai/api/custom-ocr/importable-format.md)
+- [Custom ASR](https://docs.datasaur.ai/api/custom-asr.md)
+- [Run ML-Assisted Labeling](https://docs.datasaur.ai/api/run-ml-assisted-labeling.md)
+- [Security and compliance](https://docs.datasaur.ai/security-and-compliance/security-and-compliance.md)
+- [2FA](https://docs.datasaur.ai/security-and-compliance/security-and-compliance/2fa.md): Time-based one-time password (TOTP)
+- [Common Terminology](https://docs.datasaur.ai/compatibility-and-updates/common-terminology.md): A glossary of terms used throughout the app to help ensure a consistent understanding across all users.
+- [Recommended machine specifications](https://docs.datasaur.ai/compatibility-and-updates/recommended-machine-specifications.md)
+- [Supported formats](https://docs.datasaur.ai/compatibility-and-updates/supported-formats.md): Sources: Wikipedia and IANA
+- [Supported languages](https://docs.datasaur.ai/compatibility-and-updates/supported-languages.md)
+- [Release Notes](https://docs.datasaur.ai/compatibility-and-updates/release-notes.md): Contain version histories and its highlight
+- [Version 6](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6.md)
+- [6.167.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.167.0.md): July 16, 2026
+- [6.166.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.166.0.md)
+- [6.165.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.165.0.md)
+- [6.164.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.164.0.md)
+- [6.163.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.163.0.md)
+- [6.162.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.162.0.md)
+- [6.161.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.161.0.md)
+- [6.160.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.160.0.md)
+- [6.159.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.159.0.md)
+- [6.158.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.158.0.md)
+- [6.157.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.157.0.md): April 23, 2026
+- [6.156.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.156.0.md)
+- [6.155.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.155.0.md)
+- [6.154.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.154.0.md)
+- [6.153.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.153.0.md)
+- [6.152.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.152.0.md)
+- [6.151.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.151.0.md)
+- [6.150.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.150.0.md)
+- [6.149.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.149.0.md)
+- [6.148.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.148.0.md)
+- [6.147.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.147.0.md)
+- [6.146.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.146.0.md)
+- [6.145.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.145.0.md)
+- [6.144.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.144.0.md)
+- [6.143.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.143.0.md)
+- [6.142.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.142.0.md)
+- [6.141.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.141.0.md)
+- [6.140.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.140.0.md)
+- [6.139.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.139.0.md)
+- [6.138.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.138.0.md)
+- [6.137.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.137.0.md)
+- [6.136.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.136.0.md)
+- [6.135.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.135.0.md)
+- [6.134.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.134.0.md)
+- [6.133.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.133.0.md)
+- [6.132.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.132.0.md)
+- [6.131.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.131.0.md)
+- [6.130.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.130.0.md)
+- [6.129.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.129.0.md)
+- [6.128.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.128.0.md)
+- [6.127.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.127.0.md)
+- [6.126.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.126.0.md)
+- [6.125.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.125.0.md)
+- [6.124.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.124.0.md)
+- [6.123.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.123.0.md)
+- [6.122.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.122.0.md)
+- [6.121.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.121.0.md)
+- [6.120.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.120.0.md)
+- [6.119.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.119.0.md)
+- [6.118.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.118.0.md)
+- [6.117.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.117.0.md)
+- [6.116.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.116.0.md)
+- [6.115.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.115.0.md)
+- [6.114.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.114.0.md)
+- [6.113.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.113.0.md)
+- [6.112.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.112.0.md)
+- [6.111.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.111.0.md)
+- [6.110.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.110.0.md)
+- [6.109.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.109.0.md)
+- [6.108.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.108.0.md)
+- [6.107.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.107.0.md)
+- [6.106.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.106.0.md)
+- [6.105.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.105.0.md)
+- [6.104.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.104.0.md)
+- [6.103.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.103.0.md)
+- [6.102.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.102.0.md)
+- [6.101.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.101.0.md)
+- [6.100.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.100.0.md)
+- [6.99.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.99.0.md)
+- [6.98.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.98.0.md)
+- [6.97.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.97.0.md)
+- [6.96.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.96.0.md)
+- [6.95.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.95.0.md)
+- [6.94.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.94.0.md)
+- [6.93.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.93.0.md)
+- [6.92.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.92.0.md)
+- [6.91.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.91.0.md)
+- [6.90.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.90.0.md)
+- [6.89.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.89.0.md)
+- [6.88.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.88.0.md)
+- [6.87.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.87.0.md)
+- [6.86.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.86.0.md)
+- [6.85.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.85.0.md)
+- [6.84.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.84.0.md)
+- [6.83.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.83.0.md)
+- [6.82.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.82.0.md)
+- [6.81.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.81.0.md)
+- [6.80.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.80.0.md)
+- [6.79.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.79.0.md)
+- [6.78.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.78.0.md)
+- [6.77.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.77.0.md)
+- [6.76.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.76.0.md)
+- [6.75.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.75.0.md)
+- [6.74.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.74.0.md)
+- [6.73.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.73.0.md)
+- [6.72.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.72.0.md)
+- [6.71.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.71.0.md)
+- [6.70.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.70.0.md)
+- [6.69.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.69.0.md)
+- [6.68.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.68.0.md)
+- [6.67.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.67.0.md)
+- [6.66.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.66.0.md)
+- [6.65.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.65.0.md)
+- [6.64.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.64.0.md)
+- [6.63.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.63.0.md)
+- [6.62.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.62.0.md)
+- [6.61.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.61.0.md)
+- [6.60.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.60.0.md)
+- [6.59.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.59.0.md)
+- [6.58.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.58.0.md)
+- [6.57.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.57.0.md)
+- [6.56.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.56.0.md)
+- [6.55.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.55.0.md)
+- [6.54.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.54.0.md)
+- [6.53.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.53.0.md)
+- [6.52.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.52.0.md)
+- [6.51.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.51.0.md)
+- [6.50.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.50.0.md)
+- [6.49.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.49.0.md)
+- [6.48.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.48.0.md)
+- [6.47.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.47.0.md)
+- [6.46.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.46.0.md)
+- [6.45.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.45.0.md)
+- [6.44.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.44.0.md)
+- [6.43.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.43.0.md)
+- [6.42.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.42.0.md)
+- [6.41.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.41.0.md)
+- [6.40.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.40.0.md)
+- [6.39.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.39.0.md)
+- [6.38.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.38.0.md)
+- [6.37.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.37.0.md)
+- [6.36.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.36.0.md)
+- [6.35.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.35.0.md)
+- [6.34.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.34.0.md)
+- [6.33.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.33.0.md)
+- [6.32.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.32.0.md)
+- [6.31.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.31.0.md)
+- [6.30.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.30.0.md)
+- [6.29.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.29.0.md)
+- [6.28.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.28.0.md)
+- [6.27.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.27.0.md)
+- [6.26.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.26.0.md)
+- [6.25.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.25.0.md)
+- [6.24.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.24.0.md)
+- [6.23.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.23.0.md)
+- [6.22.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.22.0.md)
+- [6.21.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.21.0.md)
+- [6.20.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.20.0.md)
+- [6.19.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.19.0.md)
+- [6.18.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.18.0.md)
+- [6.17.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.17.0.md)
+- [6.16.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.16.0.md)
+- [6.15.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.15.0.md)
+- [6.14.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.14.0.md)
+- [6.13.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.13.0.md)
+- [6.12.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.12.0.md)
+- [6.11.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.11.0.md)
+- [6.10.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.10.0.md)
+- [6.9.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.9.0.md)
+- [6.8.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.8.0.md)
+- [6.7.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.7.0.md)
+- [6.6.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.6.0.md)
+- [6.5.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.5.0.md)
+- [6.4.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.4.0.md)
+- [6.3.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.3.0.md)
+- [6.2.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.2.0.md)
+- [6.1.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.1.0.md)
+- [6.0.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-6/6.0.0.md)
+- [Version 5](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-5.md)
+- [5.63.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-5/5.63.0.md)
+- [5.62.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-5/5.62.0.md)
+- [5.61.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-5/5.61.0.md)
+- [5.60.0](https://docs.datasaur.ai/compatibility-and-updates/release-notes/version-5/5.60.0.md)
+- [Self-Hosted](https://docs.datasaur.ai/deployment/self-hosted.md)
+- [AWS Marketplace](https://docs.datasaur.ai/deployment/self-hosted/aws-marketplace.md)
+- [Data Studio](https://docs.datasaur.ai/deployment/self-hosted/aws-marketplace/nlp-platform.md)
+- [LLM Labs](https://docs.datasaur.ai/deployment/self-hosted/aws-marketplace/llm-labs.md)

@@ -1,0 +1,15 @@
+generated: '2026-07-18'
+method: generated
+source: >-
+  Grounded in documented Datasaur GraphQL operations
+  (https://docs.datasaur.ai/api/apis-docs,
+  https://github.com/datasaur-ai/api-client-example).
+skills:
+  - file: datasaur-create-project.md
+    name: Create a Datasaur labeling project
+    api: graphql (https://app.datasaur.ai/graphql)
+    operations: [createProject, createGuideline]
+  - file: datasaur-export-and-tag.md
+    name: Export Datasaur projects and manage tags
+    api: graphql (https://app.datasaur.ai/graphql)
+    operations: [getProjects, exportProject, updateProjectTags, removeProjectTags]
