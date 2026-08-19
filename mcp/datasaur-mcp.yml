@@ -1,32 +1,36 @@
 generated: '2026-07-18'
 method: derived
 status: candidate
-source: >-
-  Derived from documented Datasaur GraphQL operations
-  (https://docs.datasaur.ai/api/apis-docs and
-  https://github.com/datasaur-ai/api-client-example). No official hosted/remote
-  MCP server was found for Datasaur as of 2026-07-18.
+source: Derived from documented Datasaur GraphQL operations (https://docs.datasaur.ai/api/apis-docs and
+  https://github.com/datasaur-ai/api-client-example). No official hosted/remote MCP server was found for
+  Datasaur as of 2026-07-18.
 server:
   name: datasaur
   transport: http
   endpoint: https://app.datasaur.ai/graphql
   auth: OAuth2 client_credentials (bearer) via https://datasaur.ai/api/oauth/token
 tools:
-  - name: create_project
-    description: Create a new labeling project (asynchronous job).
-    source_operation: graphql#createProject
-  - name: create_guideline
-    description: Create a labeling guideline for a project.
-    source_operation: graphql#createGuideline
-  - name: export_project
-    description: Export a project's labels in a given format.
-    source_operation: graphql#exportProject
-  - name: get_projects
-    description: List projects (paginated) for a team.
-    source_operation: graphql#getProjects
-  - name: update_project_tags
-    description: Replace (PUT) or add (PATCH) tags on a project.
-    source_operation: graphql#updateProjectTags
-  - name: remove_project_tags
-    description: Remove tags from a project.
-    source_operation: graphql#removeProjectTags
+- name: create_project
+  description: Create a new labeling project (asynchronous job).
+  source_operation: graphql#createProject
+- name: create_guideline
+  description: Create a labeling guideline for a project.
+  source_operation: graphql#createGuideline
+- name: export_project
+  description: Export a project's labels in a given format.
+  source_operation: graphql#exportProject
+- name: get_projects
+  description: List projects (paginated) for a team.
+  source_operation: graphql#getProjects
+- name: update_project_tags
+  description: Replace (PUT) or add (PATCH) tags on a project.
+  source_operation: graphql#updateProjectTags
+- name: remove_project_tags
+  description: Remove tags from a project.
+  source_operation: graphql#removeProjectTags
+deployment:
+  mode: none
+  verified: derived
+  tools: 6
+  checked: '2026-08-12'
+  source: catalog MCP census
