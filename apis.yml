@@ -45,12 +45,15 @@ image: https://cdn.prod.website-files.com/623952e7f678f73f3096fd25/66c5ad5767cd8
 specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
+x-docs-platform: gitbook
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-09-25
 tags:
 - Company
 - Enterprise Saas
 - Data Labeling
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - NLP
 - Data Annotation
@@ -65,6 +68,7 @@ tags_raw:
 - NLP
 - Data Annotation
 - GraphQL
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
