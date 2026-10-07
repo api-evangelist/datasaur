@@ -1,0 +1,47 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://datasaur.ai/pricing
+sources:
+- https://datasaur.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Enterprise services pricing page with annual starting prices; all tiers route to 'Talk to sales'.
+  No API-level or per-call pricing shown.
+plan_count: 4
+currency: USD
+plans:
+- name: Specific Workflow
+  price_text: Starting from $50K /year
+  price: 50000
+  currency: USD
+  period: year
+  included_quota: Streamline a standard workflow with AI; Scoping, implementation and optimization; Ideal
+    as pilot project
+- name: Starter Engagement
+  price_text: Starting from $85K /year
+  price: 85000
+  currency: USD
+  period: year
+  included_quota: Proof of concept or pilot project; Rapid validation of AI use cases
+- name: Enterprise Pilot
+  price_text: Starting from $150K /year
+  price: 150000
+  currency: USD
+  period: year
+  included_quota: Everything in Starter Engagement, plus end-to-end workflow automation or LLM integration;
+    compliance and security
+- name: Strategic Partnership
+  price_text: Custom
+  period: none
+  included_quota: Everything in Enterprise Pilot, plus multi-department rollout, custom governance, compliance,
+    and training, ongoing support
