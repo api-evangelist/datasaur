@@ -1,0 +1,22 @@
+generated: '2026-10-13'
+method: searched
+checked:
+- https://aws.amazon.com/marketplace/
+marketplace_apps: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=f0ba5170-87a1-4efe-befd-dc36b3f960cf
+  listing_count: 2
+  apps:
+  - Datasaur LLM Labs
+  - Datasaur Data Studio
+  seller_name: Datasaur
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
