@@ -15,8 +15,8 @@ edges:
   evidence: https://aws.amazon.com/marketplace/seller-profile?id=f0ba5170-87a1-4efe-befd-dc36b3f960cf
   listing_count: 2
   apps:
-  - Datasaur LLM Labs
   - Datasaur Data Studio
+  - Datasaur LLM Labs (Pay as you go) Subscription
   seller_name: Datasaur
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
