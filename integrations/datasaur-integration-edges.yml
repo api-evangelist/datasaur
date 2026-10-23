@@ -2,6 +2,7 @@ generated: '2026-10-13'
 method: searched
 checked:
 - https://aws.amazon.com/marketplace/
+- hugging-face/integrations/hugging-face-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: AWS Marketplace
@@ -20,3 +21,38 @@ edges:
   seller_name: Datasaur
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
+- partner_name: Hugging Face (hugging-face-hub)
+  partner: hugging-face
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: hugging-face-hub
+  evidence: https://huggingface.co/Datasaur
+  mirror_of: hugging-face/integrations/hugging-face-integration-edges.yml
+  apps:
+  - Datasaur/mongabay-experiment
+  - Datasaur/Mongabay-collection
+  - Datasaur/Mongabay-tags-classification
+  - Datasaur/Mongabay-sentiment-classification
+  - Datasaur/PubMedQA-llama-405B-labels
+  - Datasaur/PubMedQA-llama-3-2-3B-labels
+  - Datasaur/PubMedQA-llama-3-1-8-B-labels-train
+  - Datasaur/PubMedQA-llama-3-1-8-B-labels-test-set
+  - Datasaur/bert-FewNERD
+  - Datasaur/distilbert-base-uncased-finetuned-conll2003
+  - Datasaur/distilbert-base-uncased-finetuned-ag-news
+  - Datasaur/llm-distillation-llm-label-finetuned
+  - Datasaur/document_text_reader
+  - Datasaur/few-shot-demo
+  - Datasaur/zero-shot-demo
+  listing_count: 3
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Hugging Face Hub datasets
+  badges:
+  - Verified publisher (Hugging Face verified organisation)
+source:
+- hugging-face/integrations/hugging-face-integration-edges.yml
